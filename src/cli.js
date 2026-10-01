@@ -6,7 +6,7 @@ import { grade } from './grader.js';
 import { renderHtml, renderText } from './report.js';
 
 const USAGE = `
-seo-grader - mini SEO website grader (Playwright + Lighthouse)
+vynco-seo-grader - mini SEO website grader (Playwright + Lighthouse)
 
   Usage: npm run grade -- <url> [options]
 

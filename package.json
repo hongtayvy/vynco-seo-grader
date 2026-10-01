@@ -1,5 +1,5 @@
 {
-  "name": "vynco-seo-tool",
+  "name": "vynco-seo-grader",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -8,11 +8,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hongtayvy/vynco-seo-tool.git"
+    "url": "git+https://github.com/hongtayvy/vynco-seo-grader.git"
   },
-  "homepage": "https://github.com/hongtayvy/vynco-seo-tool#readme",
+  "homepage": "https://github.com/hongtayvy/vynco-seo-grader#readme",
   "bugs": {
-    "url": "https://github.com/hongtayvy/vynco-seo-tool/issues"
+    "url": "https://github.com/hongtayvy/vynco-seo-grader/issues"
   },
   "keywords": [
     "seo",
@@ -23,7 +23,7 @@
     "site-grader"
   ],
   "bin": {
-    "seo-grader": "./src/cli.js"
+    "vynco-seo-grader": "./src/cli.js"
   },
   "scripts": {
     "grade": "node src/cli.js",

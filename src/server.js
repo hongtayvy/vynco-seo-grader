@@ -11,7 +11,7 @@ let running = null;
 const page = (body) => `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SEO Grader</title>
+<title>VYNCO SEO Grader</title>
 <style>
   :root { --bg:#f6f7f9; --card:#fff; --ink:#14171f; --muted:#5c6472; --line:#e3e6ec; --accent:#2d5bff; }
   @media (prefers-color-scheme: dark) {
@@ -50,7 +50,7 @@ const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 const form = (error = '') => page(`
-  <h1>SEO Website Grader</h1>
+  <h1>VYNCO SEO Grader</h1>
   <p class="sub">Playwright crawls the page, Lighthouse scores it, and you get a letter grade.</p>
   ${error ? `<p class="error">${esc(error)}</p>` : ''}
   <form method="POST" action="/grade">
@@ -114,5 +114,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`SEO grader listening on http://localhost:${PORT}`);
+  console.log(`VYNCO SEO grader listening on http://localhost:${PORT}`);
 });

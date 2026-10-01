@@ -1,4 +1,4 @@
-# seo-grader
+# vynco-seo-grader
 
 A mini SEO website grader. Playwright crawls the rendered page and checks 25 on-page
 rules; Google Lighthouse scores performance, accessibility, best practices and SEO.

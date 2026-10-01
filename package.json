@@ -1,11 +1,19 @@
 {
-  "name": "seo-grader",
+  "name": "vynco-seo-tool",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "Mini SEO website grader powered by Playwright + Google Lighthouse",
   "author": "Victor Yang",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongtayvy/vynco-seo-tool.git"
+  },
+  "homepage": "https://github.com/hongtayvy/vynco-seo-tool#readme",
+  "bugs": {
+    "url": "https://github.com/hongtayvy/vynco-seo-tool/issues"
+  },
   "keywords": [
     "seo",
     "lighthouse",

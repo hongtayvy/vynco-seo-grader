@@ -1,0 +1,32 @@
+{
+  "name": "seo-grader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mini SEO website grader powered by Playwright + Google Lighthouse",
+  "author": "Victor Yang",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "lighthouse",
+    "playwright",
+    "audit",
+    "web-performance",
+    "site-grader"
+  ],
+  "bin": {
+    "seo-grader": "./src/cli.js"
+  },
+  "scripts": {
+    "grade": "node src/cli.js",
+    "serve": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "dependencies": {
+    "lighthouse": "^13.4.1",
+    "playwright": "^1.62.1"
+  }
+}
